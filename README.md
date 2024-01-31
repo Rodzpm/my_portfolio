@@ -45,6 +45,8 @@ Nous utilisons Vue.js comme framework pour ce workshop. Vous pouvez en apprendre
 
 Dans le dossier `src`, vous allez retrouver `App.vue`, qui est le composant principal de votre application Vue.js. Ce fichier se compose des sections suivantes :
 
+PS: c'est un exemple avec des componenents comme `Footer.vue` ou `Header.vue`. A vous de les refaire.
+
 ### Template (`<template>`)
 
 Contient le code HTML de votre composant. Utilisez la syntaxe Vue.js pour définir la structure de votre page.
@@ -61,7 +63,7 @@ Contient le code HTML de votre composant. Utilisez la syntaxe Vue.js pour défin
 </template>
 ```
 
-### Script (<script>)
+### Script (`<script>`)
 Contient la logique JavaScript de votre composant. Définissez les méthodes, les données et les hooks de cycle de vie du composant, et importez d'autres composants ou bibliothèques nécessaires.
 
 ```html
