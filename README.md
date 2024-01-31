@@ -95,11 +95,16 @@ Nous allons déployer votre site portfolio sur Vercel, une plateforme de déploi
 3. Configurez les paramètres de déploiement, et n'oubliez pas de définir les variables d'environnement si nécessaire.
 4. Votre site sera automatiquement déployé à chaque push sur la branche principale (main/master).
 
+Voici un tuto plus détaillé sur comment déployer votre app Vue.js sur Vercel [ICI](https://vercel.com/guides/deploying-vuejs-to-vercel).
+
 ## Et après ?
 
 - Personnalisez davantage votre site portfolio en ajoutant des projets personnels, des blogs, etc.
 - Explorez des fonctionnalités avancées de Vue.js pour améliorer votre site.
-- Partagez votre travail et demandez de l'aide sur le canal de communication dédié.
+- Entraidez vous :)
+
+Si vous n'avez pas d'inspirations, voici [quelques exemples de portfolio](https://www.hostinger.com/tutorials/web-developer-portfolio).
+
 
 ## Ressources Complémentaires
 
