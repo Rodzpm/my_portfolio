@@ -39,23 +39,65 @@ Vous pouvez lancez le projet et voir votre magnifique portfolio (même si il y e
 npm run dev
 ```
 
-## 2. Setup du Projet avec Vue.js
+## 2. Commencer un Projet avec Vue.js
 
 Nous utilisons Vue.js comme framework pour ce workshop. Vous pouvez en apprendre plus sur Vue.js [ici](https://vuejs.org/).
 
-Créez un nouveau projet Vue.js en suivant les commandes ci-dessous :
+Dans le dossier `src`, vous allez retrouver `App.vue`, qui est le composant principal de votre application Vue.js. Ce fichier se compose des sections suivantes :
 
-```bash
-vue create .
+### Template (`<template>`)
+
+Contient le code HTML de votre composant. Utilisez la syntaxe Vue.js pour définir la structure de votre page.
+
+```html
+<template>
+  <div>
+    <Header />
+    <main>
+      <!-- Contenu principal de votre page -->
+    </main>
+    <Footer />
+  </div>
+</template>
 ```
 
-## 3. Tutorial Frontend
+### Script (<script>)
+Contient la logique JavaScript de votre composant. Définissez les méthodes, les données et les hooks de cycle de vie du composant, et importez d'autres composants ou bibliothèques nécessaires.
 
-Dans cette section, nous allons construire les bases de votre site portfolio. Consultez le code dans le dossier `src` pour les détails.
+```html
+<script>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
-- Créez des composants pour chaque section de votre site (Accueil, Portfolio, Contact, etc.).
-- Ajoutez du style avec CSS.
-- EN bonus vous pouvez intégrer de l'interactivité avec JavaScript (animations, transitions, etc.).
+export default {
+  components: {
+    Header,
+    Footer
+  },
+  data() {
+    return {
+      // Données spécifiques au composant
+    }
+  },
+  methods: {
+    // Méthodes spécifiques au composant
+  }
+}
+</script>
+```
+
+### Style (<style>)
+Contient les styles CSS spécifiques au composant. Utilisez du CSS classique ou des préprocesseurs comme Sass ou Less.
+
+```html
+<style>
+/* Styles spécifiques au composant */
+</style>
+```
+
+C'est dans App.vue que vous organisez la mise en page générale de votre application et intégrez les différentes parties de votre portfolio. Créez d'autres composants dans le dossier components pour organiser votre code de manière modulaire et réutilisable.
+
+Je vous conseille vivement d'aller vous renseigner auprès de la [Documentation Vue.js](https://vuejs.org/guide/introduction.html).
 
 ## 4. Déploiement sur Vercel
 
