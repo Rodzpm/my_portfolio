@@ -90,9 +90,9 @@ Je vous conseille vivement d'aller vous renseigner auprès de la [Documentation 
 
 Pour ce qui est de développer le design, libre à vous de faire ce qu'il vous plaît. Voici quelques ressources pour vous aider:
 
-MDN Web Docs: Une référence complète pour les technologies web, y compris HTML, CSS, et JavaScript [ICI](https://developer.mozilla.org/fr/).
+`MDN Web Docs`: Une référence complète pour les technologies web, y compris HTML, CSS, et JavaScript [ICI](https://developer.mozilla.org/fr/).
 
-W3Schools: Un site qui propose des tutoriels et des références pour HTML, CSS, JavaScript, et d'autres technologies web [ICI](https://www.w3schools.com/).
+`W3Schools`: Un site qui propose des tutoriels et des références pour HTML, CSS, JavaScript, et d'autres technologies web [ICI](https://www.w3schools.com/).
 
 ## 4. Déploiement sur Vercel
 
