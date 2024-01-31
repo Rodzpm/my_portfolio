@@ -65,24 +65,9 @@ Contient le code HTML de votre composant. Utilisez la syntaxe Vue.js pour défin
 Contient la logique JavaScript de votre composant. Définissez les méthodes, les données et les hooks de cycle de vie du composant, et importez d'autres composants ou bibliothèques nécessaires.
 
 ```html
-<script>
+<script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-
-export default {
-  components: {
-    Header,
-    Footer
-  },
-  data() {
-    return {
-      // Données spécifiques au composant
-    }
-  },
-  methods: {
-    // Méthodes spécifiques au composant
-  }
-}
 </script>
 ```
 
