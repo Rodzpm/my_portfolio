@@ -13,22 +13,30 @@ Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
 ## 1. Installation
 
-Clonez ce dépôt sur votre machine locale :
+Vérifiez que node.js a bien été installé:
 
 ```bash
-git clone https://github.com/votre-utilisateur/workshop-portfolio-vuejs.git
+node -v
 ```
 
-Accédez au répertoire du projet :
-
-``` bash
-cd workshop-portfolio-vuejs
-```
-
-Installez les dépendances nécessaires avec npm :
+Créez le projet Vue.js
 
 ```bash
+npm create vue@latest
+```
+
+Précisez le nom de votre projet et mettez à "non" tous les ajouts proposés (après si vous connaissez et souhaitez allez plus loin...)
+
+Déplacez vous dans le dossier correspondant au projet et installez les dépendances
+
+```
+cd [your_beautiful_portfolio_name]
 npm install
+```
+Vous pouvez lancez le projet et voir votre magnifique portfolio (même si il y est vide pour l'instant)
+
+```
+npm run dev
 ```
 
 ## 2. Setup du Projet avec Vue.js
