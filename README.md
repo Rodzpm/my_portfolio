@@ -74,7 +74,7 @@ import Footer from './components/Footer.vue'
 ```
 
 ### Style (`<style>`)
-Contient les styles CSS spécifiques au composant. Utilisez du CSS classique ou des préprocesseurs comme Sass ou Less.
+Contient les styles CSS spécifiques au composant.
 
 ```html
 <style>
