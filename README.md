@@ -27,6 +27,19 @@ npm create vue@latest
 
 Précisez le nom de votre projet et mettez à "non" tous les ajouts proposés (après si vous connaissez et souhaitez allez plus loin...)
 
+Si vous avez une erreur du type, vérifiez la version de node:
+```bash
+node -v
+```
+
+Si elle n'est pas à 20 mettez-la à jour:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.bashrc
+nvm install node
+```
+
 Déplacez vous dans le dossier correspondant au projet et installez les dépendances
 
 ```
